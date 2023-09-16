@@ -100,7 +100,7 @@ Error generating stack: `+o.message+`
   button {
     cursor: pointer;
   }
-`,Lm={colors:{light:"#eee",lightHover:"#ccc",lightActive:"#aaa",dark:"#383838",darkHover:"#272727",darkActive:"#161616",green:"#b5ffb5",red:"#ffb5b5",pokeballRed:"#ef0e3d"}},Om="assets/logo-cf8fe99d.png",Im=()=>I.jsxs(I.Fragment,{children:[I.jsx(jm,{children:I.jsx(Mm,{src:Om,alt:"logo"})}),I.jsx(Dm,{children:I.jsx(ha,{$size:"60px",$circleborderwidth:"6px",children:I.jsx(ha,{$size:"40px",$circleborderwidth:"4px"})})})]}),jm=de.header`
+`,Lm={colors:{light:"#eee",lightHover:"#ccc",lightActive:"#aaa",dark:"#383838",darkHover:"#272727",darkActive:"#161616",green:"#b5ffb5",red:"#ffb5b5",pokeballRed:"#ef0e3d"}},Om="logo-cf8fe99d.png",Im=()=>I.jsxs(I.Fragment,{children:[I.jsx(jm,{children:I.jsx(Mm,{src:Om,alt:"logo"})}),I.jsx(Dm,{children:I.jsx(ha,{$size:"60px",$circleborderwidth:"6px",children:I.jsx(ha,{$size:"40px",$circleborderwidth:"4px"})})})]}),jm=de.header`
   display: flex;
   justify-content: center;
   align-items: center;
