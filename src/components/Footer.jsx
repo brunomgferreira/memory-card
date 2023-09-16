@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { FaGithub } from 'react-icons/fa'
-import { useState } from 'react'
 
 const Footer = () => {
   return (
