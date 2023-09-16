@@ -1,11 +1,11 @@
-import React from 'react'
 import styled from 'styled-components'
 import { FaGithub } from 'react-icons/fa'
+import { useState } from 'react'
 
 const Footer = () => {
   return (
     <FooterWrapper>
-      <p>Copyright © {new Date().getFullYear} B. Ferreira</p>
+      <p>Copyright © {Date().getFullYear} B. Ferreira</p>
       <GithubLink href="https://github.com/brunomgferreira" target="_blank">
         <FaGithub />
       </GithubLink>

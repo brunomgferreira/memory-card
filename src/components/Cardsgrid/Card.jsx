@@ -1,11 +1,10 @@
-import React from 'react'
 import styled from 'styled-components'
 
-const Card = () => {
+const Card = ({ pokemon, handleCardClick}) => {
   return (
-    <CardWrapper onClick={}>
-      <Image src={} alt={} />
-      <Name>{}</Name>
+    <CardWrapper onClick={handleCardClick}>
+      <Image src={pokemon.image} alt={pokemon.name} />
+      <Name>{pokemon.name}</Name>
     </CardWrapper>
   )
 }
